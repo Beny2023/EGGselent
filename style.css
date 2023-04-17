@@ -58,6 +58,15 @@ nav a{
     text-decoration: none;
 }
 
-test{
-    color:  red;
+#hamburger.fa-solid.fa-xmark {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45882e;
+
 }
+
+
+
+
