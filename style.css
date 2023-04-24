@@ -88,6 +88,15 @@ nav a{
 .tartalom{
     height: 500px;
 }
+.szov1{
+    background-color: #EE4540;
+    font-size: 2.5rem;
+    color: #ffffe6;
+    width: 55rem;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem ;
+}
 /* 
 #2D142C
 #510A32
