@@ -1,4 +1,3 @@
-
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
 var icon = document.getElementById('myIcon');

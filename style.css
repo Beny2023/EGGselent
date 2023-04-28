@@ -1,4 +1,12 @@
 
+/*.menusor{
+    background-color:rgb(172, 53, 53);
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 30px;
+    height: 50px;
+}*/
 body{
     background-color: #C72C41;
     color: #004d00;
@@ -17,62 +25,6 @@ li{
  i{
     margin-right: 1rem;
  }
-
-
-nav{
-    position:absolute;
-    top: 0;
-    height: 100%;
-    color: #ffffe6;
-    background-color: #510A32;
-    transform: translateX(-14rem);
-    padding-top: 8.6rem;
-    transition: transform 350ms ease-in-out;
-    width: 14rem;
-    
-}
-
-nav a{
-    color: #ffffe6;
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 4.5rem;
-}
-
-
-.kep1{
-    height: 300px;
-}
-
-
-.honalj{
-    background-color:#2D142C ;
-    height: 100px;
-    margin-bottom: 0;
-}
-
-.tartalom{
-    height: 500px;
-}
-.szov1{
-    background-color: #EE4540;
-    font-size: 2.5rem;
-    color: #ffffe6;
-    width: 55rem;
-    margin: auto;
-    border-radius: 25px;
-    padding: 1rem ;
-}
-/* .fasz{
-    background-image: url(headline_2.png);
-    background-size: cover;
-    height: 400px;}
-#2D142C
-#510A32
-#801336
-#C72C41
-#EE4540
-
  header{
     margin-bottom:1rem ;
     display: flex;
@@ -80,29 +32,26 @@ nav a{
     justify-content: space-between;
 }
 
-*/
-
-.header {
-    position: relative;
-    height: 0;
-    padding-top: 30%; /* Az arány megfelelő beállítása */
-    background-color: #fff;
-  }
-  
-  .background-image {
-    position: absolute;
+nav{
+    position:absolute;
     top: 0;
-    left: 0;
-    width: 100%;
     height: 100%;
-    background-image: url('headline_2.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .menu-active{
-    transform:translateX(0);
+    color: #ffffe6;
+    background-color: #510A32;
+   transform: translateX(-14rem );
+    padding-top: 8.6rem;
+    transition: transform 350ms ease-in-out;
+    width: 14rem;
+    
+}
+.menu-active{
+    transform:translateX(0)
+}
+nav a{
+    color: #ffffe6;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 4.5rem;
 }
 
 #hamburger.fa-solid.fa-xmark {
@@ -113,17 +62,54 @@ nav a{
     background-color: #510A32;
 
 }
-
+.kep1{
+    height: 300px;
+}
 #hamburger{
     margin: 1.8rem 0 0 4rem;
     background-color: #510A32;
     color:#ffffe6;
     font-size: 3rem;
+    z-index: 2;
     border-radius: 50%;
     padding: 2rem 2rem 2rem 2rem;
     width: 7rem;
 }
-
-.fa-xmark{
-    z-index: 2;
+.fasz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('headline_2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: block;
+   
 }
+
+.tartalom{
+    height: 500px;
+    margin-top: 500px;
+}
+.szov1{
+    background-color: #EE4540;
+    font-size: 2.5rem;
+    color: #ffffe6;
+    width: 55rem;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem ;
+}
+/* 
+#2D142C
+#510A32
+#801336
+#C72C41
+#EE4540
+
+*/
+
