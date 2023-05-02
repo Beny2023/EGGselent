@@ -1,0 +1,105 @@
+/* 
+#2D142C
+#510A32
+#801336
+#C72C41
+#EE4540
+
+*/
+
+
+body{
+    background-color: #C72C41;
+    color: #004d00;
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0 1.5rem 0 1rem;
+    line-height: 3rem;
+}
+li{
+    white-space: nowrap;
+}
+ i{
+    margin-right: 1rem;
+ }
+ header{
+    margin-bottom:1rem ;
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-between;
+}
+
+nav{
+    position:absolute;
+    top: 0;
+    height: 100%;
+    color: #ffffe6;
+    background-color: #510A32;
+   transform: translateX(-14rem );
+    padding-top: 8.6rem;
+    transition: transform 350ms ease-in-out;
+    width: 14rem;
+    height: 550px;
+    
+}
+.menu-active{
+    transform:translateX(0)
+}
+nav a{
+    color: #ffffe6;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+
+#hamburger.fa-solid.fa-xmark {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #510A32;
+
+}
+.kep1{
+    height: 300px;
+}
+#hamburger{
+    margin: 1.8rem 0 0 4rem;
+    background-color: #510A32;
+    color:#ffffe6;
+    font-size: 3rem;
+    z-index: 2;
+    border-radius: 50%;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 7rem;
+}
+.fasz{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpaper.dog/large/20541342.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: block;
+   
+}
+
+
+/* 
+#2D142C
+#510A32
+#801336
+#C72C41
+#EE4540
+
+*/
+
