@@ -95,57 +95,16 @@ nav a{
     height: 500px;
     margin-top: 500px;
 }
-.szovb{
+.szov1{
     background-color: #EE4540;
     font-size: 2.5rem;
     color: #ffffe6;
     width: 55rem;
+    margin: auto;
     border-radius: 25px;
     padding: 1rem ;
     margin-top: 1rem;
-    float: left;
-    margin-right: 5rem;
-    height: 22rem;
 }
-.szovj{
-    background-color: #EE4540;
-    font-size: 2.5rem;
-    color: #ffffe6;
-    width: 55rem;
-    border-radius: 25px;
-    padding: 1rem ;
-    margin-top: 1rem;
-    float: right;
-    height: 22rem;
-    margin-left: 5rem;
-}
-.szovjk{
-    background-color: #EE4540;
-    font-size: 2.5rem;
-    color: #ffffe6;
-    width: 55rem;
-    border-radius: 25px;
-    padding: 1rem ;
-    margin-top: 1rem;
-    width: 22rem;
-    height: 22rem;
-    margin-left: 10rem;
-}
-.szovbk{
-    background-color: #EE4540;
-    font-size: 2.5rem;
-    color: #ffffe6;
-    width: 55rem;
-    border-radius: 25px;
-    padding: 1rem ;
-    margin-top: 1rem;
-    float: left;
-    margin-left: 5rem;
-    width: 22rem;
-    height: 22rem;
-    margin-left: 10rem;
-}
-
 /* 
 #2D142C
 #510A32
