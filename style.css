@@ -75,7 +75,7 @@ nav a{
     padding: 2rem 2rem 2rem 2rem;
     width: 7rem;
 }
-.fasz{
+.igen{
     position: absolute;
     top: 0;
     left: 0;
@@ -95,7 +95,7 @@ nav a{
     height: 500px;
     margin-top: 500px;
 }
-.szov1{
+.szovj{
     background-color: #EE4540;
     font-size: 2.5rem;
     color: #ffffe6;
@@ -104,6 +104,52 @@ nav a{
     border-radius: 25px;
     padding: 1rem ;
     margin-top: 1rem;
+    float: right;
+    height: 22rem;
+    margin-right: 3rem;
+}
+.szovb{
+    background-color: #EE4540;
+    font-size: 2.5rem;
+    color: #ffffe6;
+    width: 55rem;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem ;
+    margin-top: 1rem;
+    float: left;
+    height: 22rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+.szovbk{
+    background-color: #EE4540;
+    font-size: 2.5rem;
+    color: #ffffe6;
+    width: 55rem;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem ;
+    margin-top: 1rem;
+    float: left;
+    height: 22rem;
+    width: 22rem;
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+.szovjk{
+    background-color: #EE4540;
+    font-size: 2.5rem;
+    color: #ffffe6;
+    width: 55rem;
+    margin: auto;
+    border-radius: 25px;
+    padding: 1rem ;
+    margin-top: 1rem;
+    float: right;
+    height: 22rem;
+    width: 22rem;
+    margin-right: 3rem;
 }
 /* 
 #2D142C
