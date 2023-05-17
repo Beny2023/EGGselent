@@ -8,7 +8,7 @@
     height: 50px;
 }*/
 body{
-    background-color: #C72C41;
+    background-color: #A5BE7D;
     color: #004d00;
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ nav{
     top: 0;
     height: 100%;
     color: #ffffe6;
-    background-color: #510A32;
+    background-color: #4E764E;
    transform: translateX(-14rem );
     padding-top: 8.6rem;
     transition: transform 350ms ease-in-out;
@@ -59,7 +59,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #510A32;
+    background-color: #4E764E;
 
 }
 .kep1{
@@ -67,7 +67,7 @@ nav a{
 }
 #hamburger{
     margin: 1.8rem 0 0 4rem;
-    background-color: #510A32;
+    background-color: #4E764E;
     color:#ffffe6;
     font-size: 3rem;
     z-index: 2;
@@ -81,7 +81,7 @@ nav a{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('headline_2.png');
+    background-image: url('neg.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ nav a{
     margin-top: 500px;
 }
 .szovj{
-    background-color: #EE4540;
+    background-color: #74A059;
     font-size: 2.5rem;
     color: #ffffe6;
     width: 55rem;
@@ -109,7 +109,7 @@ nav a{
     margin-right: 3rem;
 }
 .szovb{
-    background-color: #EE4540;
+    background-color: #74A059;
     font-size: 2.5rem;
     color: #ffffe6;
     width: 55rem;
@@ -123,7 +123,7 @@ nav a{
     margin-right: 2rem;
 }
 .szovbk{
-    background-color: #EE4540;
+    background-color: #74A059;
     font-size: 2.5rem;
     color: #ffffe6;
     width: 55rem;
@@ -138,7 +138,7 @@ nav a{
     margin-right: 2rem;
 }
 .szovjk{
-    background-color: #EE4540;
+    background-color: #74A059;
     font-size: 2.5rem;
     color: #ffffe6;
     width: 55rem;
