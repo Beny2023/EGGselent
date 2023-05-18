@@ -26,6 +26,7 @@
 
             </header>
         </div>
+        
 
         <nav id="nav">
             <ul>
@@ -34,6 +35,29 @@
                 <li class="menuIT"><a href="berles.html"><i class="fa-solid fa-cart-shopping"></i>Bérlés</a> </li>
             </ul>
         </nav>
+    </div>
+    <div class="gombok">
+        <p>Név:<br>
+            <input type="text" id="myInput" value="Ide Írd a nevedet..." onfocus="clearInput()" class="mol btn">
+        </p>
+        <p>Email cím:<br>
+            <input type="text"  value="Ide írd az Emailod..."  class="mol btn">
+        </p>
+        <p>Telefonszám:<br>
+            <input type="text" name="telefonszam" value="" class="mol btn">
+        </p>
+        
+<select id="prefixSelect" class="mol btn">
+    <option value="+36">+36</option>
+    <option value="+1">+1</option>
+    <option value="+44">+44</option>
+</select>
+<select id="prefixSelect" class="mol btn">
+    <option value="70">70</option>
+    <option value="30">30</option>
+    <option value="20">20</option>
+</select>
+<input type="tel" id="phoneInput" class="mol btn">
     </div>
     
     <script src="app.js"></script>

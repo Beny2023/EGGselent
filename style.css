@@ -38,7 +38,7 @@ nav{
     height: 100%;
     color: #ffffe6;
     background-color: #4E764E;
-   transform: translateX(-14rem );
+   transform: translateX(-140rem );
     padding-top: 8.6rem;
     transition: transform 350ms ease-in-out;
     width: 14rem;
@@ -150,6 +150,16 @@ nav a{
     height: 22rem;
     width: 22rem;
     margin-right: 3rem;
+}
+.gombok{
+    margin: 25rem 5rem;
+}
+.mol{
+    font-weight: bolder;
+    border: #004d00;
+    border-radius: 1rem;
+    background-color: #4E764E;
+    color: #ffffe6;
 }
 /* 
 #2D142C
