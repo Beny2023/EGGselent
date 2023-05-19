@@ -297,7 +297,7 @@ nav {
     padding: 0.5rem;
     font-size: 1rem;
     color: red;
-    background-color: var(--extra-light);
+    background-color: var(--secondary-color);
     border-radius: 100%;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
@@ -353,7 +353,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: var(--extra-light);
+    color: var(--text-color);
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -521,11 +521,11 @@ img {
   }
   
   .footer__bar {
-    max-width: var(--max-width);
     margin: auto;
     padding: 0.5rem;
     text-align: center;
     font-size: 0.8rem;
     color: var(--secondary-color);
-    border-top: 1px solid var(--text-light);
+    border-top: 1px solid var(--secondary-color);
   }
+
