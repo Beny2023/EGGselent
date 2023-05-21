@@ -1,24 +1,37 @@
-const hamburger = document.getElementById('hamburger');
-const nav = document.getElementById('nav');
-var icon = document.getElementById('myIcon');
-var button = document.getElementById('myButton');
+
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 var phoneInput = document.getElementById("phoneInput");
 var input = document.getElementById("myInput");
+var input1 = document.getElementById("input123");
+var input12 = document.getElementById("input12");
 
-hamburger.addEventListener('click', function (event) {
-    nav.classList.toggle('menu-active')
-    hamburger.classList.toggle('fa-solid fa-list')
-    hamburger.classList.toggle('fa-solid fa-xmark')
+menu.onclick = () => {
+  menu.classList.toggle('bx-x');
+  navbar.classList.toggle('open');
+}
+function clearInput() {
+  if (input.value === "") {
+      input.value = "";
+  }
+}
 
-})
-
-hamburger.addEventListener('click', function (event) {
-  hamburger.classList.toggle('fa-xmark');
+window.addEventListener('DOMContentLoaded', function() {
+  var inputField = document.querySelector('.mol.btn');
 });
-
 phoneInput.addEventListener("input", function() {
-    var phoneNumber = phoneInput.value;
-    var sanitizedNumber = phoneNumber.replace(/\D/g, "");
-    phoneInput.value = sanitizedNumber;
+  var phoneNumber = phoneInput.value;
+  var sanitizedNumber = phoneNumber.replace(/\D/g, "");
+  phoneInput.value = sanitizedNumber;
 });
+function clearInput() {
+  if (input1.value === "Ide Írjon...") {
+      input1.value = "";
+  }
+}
+function clearInput() {
+  if (input12.value === "Ide Írjon...") {
+      input12.value = "";
+  }
+}
 
